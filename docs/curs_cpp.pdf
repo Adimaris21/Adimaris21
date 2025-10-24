@@ -1,0 +1,1565 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R] /Count 14 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 31 0 R >> >> /Contents 17 0 R >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 31 0 R >> >> /Contents 18 0 R >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 31 0 R >> >> /Contents 19 0 R >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 31 0 R >> >> /Contents 20 0 R >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 31 0 R >> >> /Contents 21 0 R >>
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 31 0 R >> >> /Contents 22 0 R >>
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 31 0 R >> >> /Contents 23 0 R >>
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 31 0 R >> >> /Contents 24 0 R >>
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 31 0 R >> >> /Contents 25 0 R >>
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 31 0 R >> >> /Contents 26 0 R >>
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 31 0 R >> >> /Contents 27 0 R >>
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 31 0 R >> >> /Contents 28 0 R >>
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 31 0 R >> >> /Contents 29 0 R >>
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 31 0 R >> >> /Contents 30 0 R >>
+endobj
+17 0 obj
+<< /Length 2497 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 72 770 Tm
+14 TL
+(CURS COMPLET DE C++) Tj
+T*
+( ) Tj
+T*
+(Prefață) Tj
+T*
+( ) Tj
+T*
+(Acest curs a fost conceput pentru a ghida un student autodidact de la primele noțiuni) Tj
+T*
+(despre programare până la nivelul în care poate aborda proiecte complexe scrise în C++.) Tj
+T*
+(Structura materialului urmărește o progresie logică: de la bazele limbajului și ale) Tj
+T*
+(paradigmelor fundamentale, trecând prin programarea orientată pe obiecte, programarea) Tj
+T*
+(generică și utilizarea bibliotecii standard, până la instrumente moderne introduse în) Tj
+T*
+(standardele recente. Fiecare modul include:) Tj
+T*
+( ) Tj
+T*
+(  • **Teorie** cu explicații detaliate și context istoric acolo unde este relevant.) Tj
+T*
+(  • **Exemple de cod** annotate pentru a evidenția cele mai importante concepte.) Tj
+T*
+(  • **Exerciții** cu niveluri diferite de dificultate, utile pentru consolidarea cunoștințelor.) Tj
+T*
+(  • **Proiecte și provocări** pentru a îmbina mai multe concepte într-o aplicație coerentă.) Tj
+T*
+( ) Tj
+T*
+(> **Cum să folosești cursul:** parcurge fiecare modul în ordine, implementează exemplele) Tj
+T*
+(manual și rezolvă exercițiile înainte de a verifica soluțiile propuse. Utilizează) Tj
+T*
+(capitolul „Resurse” pentru a aprofunda subiectele preferate și revino asupra modulelor) Tj
+T*
+(unde simți că mai ai nevoie de clarificări.) Tj
+T*
+( ) Tj
+T*
+(---) Tj
+T*
+( ) Tj
+T*
+(Modulul 1. Introducere în C++) Tj
+T*
+( ) Tj
+T*
+(Obiective) Tj
+T*
+( ) Tj
+T*
+(  • Înțelegerea istoricului și a filosofiei din spatele limbajului C++.) Tj
+T*
+(  • Configurarea mediului de dezvoltare pe diferite platforme.) Tj
+T*
+(  • Scrierea și compilarea primului program.) Tj
+T*
+( ) Tj
+T*
+(Teorie) Tj
+T*
+( ) Tj
+T*
+(C++ a fost creat de Bjarne Stroustrup la începutul anilor 1980 ca o extensie a limbajului) Tj
+T*
+(C pentru programarea orientată pe obiecte. Evoluția limbajului a fost influențată de) Tj
+T*
+(nevoia de eficiență, control explicit al resurselor și compatibilitatea cu C. Standardele) Tj
+T*
+(majore \\(C++98, C++11, C++14, C++17, C++20, C++23\\) au adus îmbunătățiri semnificative, de) Tj
+T*
+(la șabloane și STL la programare concurentă și conceptul de corutine.) Tj
+T*
+( ) Tj
+T*
+(Exemplu) Tj
+T*
+( ) Tj
+T*
+(    #include <iostream>) Tj
+T*
+(    ) Tj
+T*
+(    int main\\(\\) {) Tj
+T*
+(        std::cout << "Salut, lume!" << std::endl;) Tj
+T*
+(        return 0;) Tj
+T*
+(    }) Tj
+T*
+( ) Tj
+T*
+(Explicații) Tj
+ET
+endstream
+endobj
+18 0 obj
+<< /Length 2007 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 72 770 Tm
+14 TL
+( ) Tj
+T*
+(  • `#include <iostream>` aduce în program declarațiile pentru fluxurile de intrare/ieșire.) Tj
+T*
+(  • `std::cout` este fluxul standard de ieșire.) Tj
+T*
+(  • `std::endl` golește bufferul de ieșire și inserează un caracter de linie nouă.) Tj
+T*
+( ) Tj
+T*
+(Exerciții) Tj
+T*
+( ) Tj
+T*
+(1. Instalează un compilator C++ \\(GCC, Clang sau MSVC\\) și configurează un IDE sau un editor) Tj
+T*
+(text cu suport pentru C++.) Tj
+T*
+(2. Scrie un program care afișează numele, orașul și hobby-urile tale pe linii separate.) Tj
+T*
+(3. Cercetează diferențele dintre standardele C++98 și C++11 și prezintă-le într-un fișier) Tj
+T*
+(text.) Tj
+T*
+( ) Tj
+T*
+(---) Tj
+T*
+( ) Tj
+T*
+(Modulul 2. Bazele limbajului) Tj
+T*
+( ) Tj
+T*
+(Obiective) Tj
+T*
+( ) Tj
+T*
+(  • Declararea variabilelor și folosirea tipurilor fundamentale.) Tj
+T*
+(  • Utilizarea operatorilor aritmetici, logici și de comparație.) Tj
+T*
+(  • Înțelegerea fluxurilor de intrare/ieșire.) Tj
+T*
+( ) Tj
+T*
+(Teorie) Tj
+T*
+( ) Tj
+T*
+(Tipurile de bază includ `int`, `double`, `char`, `bool` și `std::string`. Conversiile) Tj
+T*
+(implicite pot duce la erori subtile, astfel că folosirea inițializărilor cu acolade `{}`) Tj
+T*
+(este recomandată pentru a evita conversiile narîite. Literalelor li se pot adăuga sufixe) Tj
+T*
+(\\(`u`, `ll`, `f`\\) pentru a specifica tipul.) Tj
+T*
+( ) Tj
+T*
+(Exemplu: citirea și afișarea datelor) Tj
+T*
+( ) Tj
+T*
+(    #include <iostream>) Tj
+T*
+(    #include <string>) Tj
+T*
+(    ) Tj
+T*
+(    int main\\(\\) {) Tj
+T*
+(        std::string nume;) Tj
+T*
+(        int varsta{};) Tj
+T*
+(    ) Tj
+T*
+(        std::cout << "Introdu numele: ";) Tj
+T*
+(        std::getline\\(std::cin, nume\\);) Tj
+T*
+(    ) Tj
+T*
+(        std::cout << "Introdu vârsta: ";) Tj
+T*
+(        std::cin >> varsta;) Tj
+T*
+(    ) Tj
+T*
+(        std::cout << "Salut, " << nume << "! Ai " << varsta << " ani." << std::endl;) Tj
+T*
+(    }) Tj
+T*
+( ) Tj
+T*
+(Exerciții) Tj
+ET
+endstream
+endobj
+19 0 obj
+<< /Length 1971 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 72 770 Tm
+14 TL
+( ) Tj
+T*
+(1. Creează un convertor de temperatură Celsius ↔ Fahrenheit.) Tj
+T*
+(2. Implementează un program care calculează aria și perimetrul unui dreptunghi pe baza) Tj
+T*
+(introducerilor utilizatorului.) Tj
+T*
+(3. Scrie un program care determină dacă un număr întreg este par sau impar folosind) Tj
+T*
+(operatorul `%`.) Tj
+T*
+( ) Tj
+T*
+(---) Tj
+T*
+( ) Tj
+T*
+(Modulul 3. Controlul fluxului) Tj
+T*
+( ) Tj
+T*
+(Obiective) Tj
+T*
+( ) Tj
+T*
+(  • Folosirea instrucțiunilor `if`, `switch`, `for`, `while`, `do-while`.) Tj
+T*
+(  • Înțelegerea structurii `break` și `continue`.) Tj
+T*
+(  • Aplicarea operatorului condițional `?:` și a instrucțiunii `goto` \\(doar pentru referință istorică\\).) Tj
+T*
+( ) Tj
+T*
+(Teorie) Tj
+T*
+( ) Tj
+T*
+(Controlul fluxului permite ramificarea execuției. `switch` este util pentru comparații) Tj
+T*
+(discrete, dar necesită constanțe integrale sau enum-uri. Bucla `for` este ideală pentru) Tj
+T*
+(iterații cu contor cunoscut, în timp ce `while` se potrivește iterațiilor controlate de) Tj
+T*
+(condiții.) Tj
+T*
+( ) Tj
+T*
+(Exemplu: tabel de înmulțire) Tj
+T*
+( ) Tj
+T*
+(    #include <iostream>) Tj
+T*
+(    ) Tj
+T*
+(    int main\\(\\) {) Tj
+T*
+(        for \\(int i = 1; i <= 10; ++i\\) {) Tj
+T*
+(            for \\(int j = 1; j <= 10; ++j\\) {) Tj
+T*
+(                std::cout << i * j << '\\\\t';) Tj
+T*
+(            }) Tj
+T*
+(            std::cout << '\\\\n';) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+( ) Tj
+T*
+(Exerciții) Tj
+T*
+( ) Tj
+T*
+(1. Implementează un calculator de note care convertește punctajul numeric în litere \\(A-F\\)) Tj
+T*
+(folosind `if` și `switch`.) Tj
+T*
+(2. Scrie un program care verifică dacă un număr este prim.) Tj
+T*
+(3. Creează un joc simplu de ghicit numere \\(1-100\\) cu buclă `do-while` și feedback „prea) Tj
+T*
+(mic”/„prea mare”.) Tj
+T*
+( ) Tj
+T*
+(---) Tj
+T*
+( ) Tj
+T*
+(Modulul 4. Funcții și modularizare) Tj
+T*
+( ) Tj
+ET
+endstream
+endobj
+20 0 obj
+<< /Length 1872 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 72 770 Tm
+14 TL
+(Obiective) Tj
+T*
+( ) Tj
+T*
+(  • Definirea funcțiilor cu și fără valori de retur.) Tj
+T*
+(  • Argumente implicite, supraîncărcare și inline.) Tj
+T*
+(  • Separarea codului în fișiere antet \\(`.hpp`\\) și implementare \\(`.cpp`\\).) Tj
+T*
+( ) Tj
+T*
+(Teorie) Tj
+T*
+( ) Tj
+T*
+(Funcțiile sunt blocuri reutilizabile. Declarațiile se plasează, de regulă, în fișiere) Tj
+T*
+(header pentru a permite altor module să le cunoască semnăturile. `inline` sugerează) Tj
+T*
+(compilatorului să înlocuiască apelul cu corpul funcției, dar decizia finală aparține) Tj
+T*
+(compilatorului. `constexpr` permite evaluarea la compilare.) Tj
+T*
+( ) Tj
+T*
+(Exemplu: separarea în fișiere) Tj
+T*
+( ) Tj
+T*
+(`math_utils.hpp`) Tj
+T*
+(    #pragma once) Tj
+T*
+(    ) Tj
+T*
+(    int aduna\\(int a, int b\\);) Tj
+T*
+(`math_utils.cpp`) Tj
+T*
+(    #include "math_utils.hpp") Tj
+T*
+(    ) Tj
+T*
+(    int aduna\\(int a, int b\\) {) Tj
+T*
+(        return a + b;) Tj
+T*
+(    }) Tj
+T*
+(`main.cpp`) Tj
+T*
+(    #include <iostream>) Tj
+T*
+(    #include "math_utils.hpp") Tj
+T*
+(    ) Tj
+T*
+(    int main\\(\\) {) Tj
+T*
+(        std::cout << aduna\\(3, 4\\) << '\\\\n';) Tj
+T*
+(    }) Tj
+T*
+( ) Tj
+T*
+(Exerciții) Tj
+T*
+( ) Tj
+T*
+(1. Scrie funcții separate pentru calculul factorialului iterativ și recursiv; compară) Tj
+T*
+(performanța folosind un numărător de apeluri.) Tj
+T*
+(2. Implementează o funcție `double medie\\(const std::vector<int>&\\)` și testeaz-o cu date) Tj
+T*
+(random.) Tj
+T*
+(3. Creează un modul `geometry` cu funcții pentru arii de triunghi, cerc, pătrat și un) Tj
+T*
+(program care le utilizează.) Tj
+T*
+( ) Tj
+T*
+(---) Tj
+T*
+( ) Tj
+T*
+(Modulul 5. Programare orientată pe obiecte) Tj
+T*
+( ) Tj
+T*
+(Obiective) Tj
+T*
+( ) Tj
+T*
+(  • Crearea claselor, constructorilor, destructorilor și membrilor statici.) Tj
+ET
+endstream
+endobj
+21 0 obj
+<< /Length 2104 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 72 770 Tm
+14 TL
+(  • Aplicarea principiilor de încapsulare, moștenire și polimorfism.) Tj
+T*
+(  • Folosirea regulii celor trei/cinci/zero.) Tj
+T*
+( ) Tj
+T*
+(Teorie) Tj
+T*
+( ) Tj
+T*
+(În C++ clasele pot avea membri publici, protejați și privați. Constructorii inițializează) Tj
+T*
+(starea, iar destructorii eliberează resurse. Polimorfismul dinamic funcționează prin) Tj
+T*
+(intermediul pointerilor/referințelor către clase de bază și funcții virtuale. Interfețele) Tj
+T*
+(pot fi emulate cu clase abstracte care conțin cel puțin o metodă virtuală pură.) Tj
+T*
+( ) Tj
+T*
+(Exemplu: ierarhie de forme) Tj
+T*
+( ) Tj
+T*
+(    #include <iostream>) Tj
+T*
+(    #include <memory>) Tj
+T*
+(    #include <vector>) Tj
+T*
+(    ) Tj
+T*
+(    class Forma {) Tj
+T*
+(    public:) Tj
+T*
+(        virtual ~Forma\\(\\) = default;) Tj
+T*
+(        virtual double aria\\(\\) const = 0;) Tj
+T*
+(        virtual void descrie\\(\\) const {) Tj
+T*
+(            std::cout << "Sunt o formă generică.\\\\n";) Tj
+T*
+(        }) Tj
+T*
+(    };) Tj
+T*
+(    ) Tj
+T*
+(    class Cerc final : public Forma {) Tj
+T*
+(    public:) Tj
+T*
+(        explicit Cerc\\(double r\\) : raza{r} {}) Tj
+T*
+(        double aria\\(\\) const override { return 3.14159 * raza * raza; }) Tj
+T*
+(        void descrie\\(\\) const override {) Tj
+T*
+(            std::cout << "Cerc cu raza " << raza << '\\\\n';) Tj
+T*
+(        }) Tj
+T*
+(    private:) Tj
+T*
+(        double raza;) Tj
+T*
+(    };) Tj
+T*
+(    ) Tj
+T*
+(    class Dreptunghi : public Forma {) Tj
+T*
+(    public:) Tj
+T*
+(        Dreptunghi\\(double l, double L\\) : latura_mica{l}, latura_mare{L} {}) Tj
+T*
+(        double aria\\(\\) const override { return latura_mica * latura_mare; }) Tj
+T*
+(    private:) Tj
+T*
+(        double latura_mica;) Tj
+T*
+(        double latura_mare;) Tj
+T*
+(    };) Tj
+T*
+(    ) Tj
+T*
+(    int main\\(\\) {) Tj
+T*
+(        std::vector<std::unique_ptr<Forma>> forme;) Tj
+T*
+(        forme.emplace_back\\(std::make_unique<Cerc>\\(5.0\\)\\);) Tj
+T*
+(        forme.emplace_back\\(std::make_unique<Dreptunghi>\\(3.0, 4.0\\)\\);) Tj
+ET
+endstream
+endobj
+22 0 obj
+<< /Length 2118 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 72 770 Tm
+14 TL
+(    ) Tj
+T*
+(        for \\(const auto& forma : forme\\) {) Tj
+T*
+(            forma->descrie\\(\\);) Tj
+T*
+(            std::cout << "Aria: " << forma->aria\\(\\) << "\\\\n";) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+( ) Tj
+T*
+(Exerciții) Tj
+T*
+( ) Tj
+T*
+(1. Implementează o clasă `ContBancar` cu operații de depunere/retragere, validare a) Tj
+T*
+(sumelor și log de tranzacții.) Tj
+T*
+(2. Creează o ierarhie pentru vehicule \\(clasă de bază `Vehicul`, derivate `Masina`,) Tj
+T*
+(`Bicicleta`, `Autobuz`\\) și simulează un parc auto.) Tj
+T*
+(3. Aplică principiul SOLID pentru a refactoriza o clasă „Zeus” care face „de toate”.) Tj
+T*
+( ) Tj
+T*
+(---) Tj
+T*
+( ) Tj
+T*
+(Modulul 6. Biblioteca Standard \\(STL\\)) Tj
+T*
+( ) Tj
+T*
+(Obiective) Tj
+T*
+( ) Tj
+T*
+(  • Familiarizarea cu containerele secvențiale și asociative.) Tj
+T*
+(  • Utilizarea algoritmilor generici \\(`std::sort`, `std::accumulate`, `std::transform`\\).) Tj
+T*
+(  • Introducerea iteratorilor și a adaptorilor de containere.) Tj
+T*
+( ) Tj
+T*
+(Teorie) Tj
+T*
+( ) Tj
+T*
+(STL este construită pe trei piloni: containere, algoritmi și iteratoare. Containerele) Tj
+T*
+(secvențiale \\(`std::vector`, `std::list`, `std::deque`\\) organizează elementele liniar, în) Tj
+T*
+(timp ce containerele asociative \\(`std::map`, `std::set`\\) gestionează perechi cheie-valoare) Tj
+T*
+(sau seturi. Algoritmii funcționează pe intervale definite de doi iteratori.) Tj
+T*
+( ) Tj
+T*
+(Exemplu: procesarea notelor) Tj
+T*
+( ) Tj
+T*
+(    #include <algorithm>) Tj
+T*
+(    #include <iostream>) Tj
+T*
+(    #include <numeric>) Tj
+T*
+(    #include <vector>) Tj
+T*
+(    ) Tj
+T*
+(    int main\\(\\) {) Tj
+T*
+(        std::vector<int> note{7, 8, 9, 10, 6, 8};) Tj
+T*
+(    ) Tj
+T*
+(        std::sort\\(note.begin\\(\\), note.end\\(\\)\\);) Tj
+T*
+(        auto medie = std::accumulate\\(note.begin\\(\\), note.end\\(\\), 0.0\\) / note.size\\(\\);) Tj
+T*
+(    ) Tj
+T*
+(        std::cout << "Note ordonate: ";) Tj
+T*
+(        for \\(int nota : note\\) {) Tj
+T*
+(            std::cout << nota << ' ';) Tj
+T*
+(        }) Tj
+ET
+endstream
+endobj
+23 0 obj
+<< /Length 1958 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 72 770 Tm
+14 TL
+(        std::cout << "\\\\nMedia: " << medie << '\\\\n';) Tj
+T*
+(    }) Tj
+T*
+( ) Tj
+T*
+(Exerciții) Tj
+T*
+( ) Tj
+T*
+(1. Analizează complexitatea principalelor containere STL și creează un tabel comparativ.) Tj
+T*
+(2. Scrie un program care citește cuvinte dintr-un fișier și construiește un) Tj
+T*
+(`std::map<std::string, int>` cu frecvențe.) Tj
+T*
+(3. Utilizează `std::partition` pentru a separa numerele pare de cele impare într-un) Tj
+T*
+(`std::vector`.) Tj
+T*
+( ) Tj
+T*
+(---) Tj
+T*
+( ) Tj
+T*
+(Modulul 7. Gestionarea memoriei) Tj
+T*
+( ) Tj
+T*
+(Obiective) Tj
+T*
+( ) Tj
+T*
+(  • Utilizarea pointerilor și a referințelor.) Tj
+T*
+(  • Înțelegerea smart pointerilor \\(`std::unique_ptr`, `std::shared_ptr`, `std::weak_ptr`\\).) Tj
+T*
+(  • Implementarea conceptelor RAII și alocare personalizată.) Tj
+T*
+( ) Tj
+T*
+(Teorie) Tj
+T*
+( ) Tj
+T*
+(C++ oferă control total asupra memoriei, dar responsabilitatea este transferată) Tj
+T*
+(programatorului. RAII \\(Resource Acquisition Is Initialization\\) garantează eliberarea) Tj
+T*
+(resurselor la finalul duratei de viață. Smart pointerii sunt wrapperi siguri pentru) Tj
+T*
+(pointerii brute și respectă RAII.) Tj
+T*
+( ) Tj
+T*
+(Exemplu: `std::unique_ptr`) Tj
+T*
+( ) Tj
+T*
+(    #include <iostream>) Tj
+T*
+(    #include <memory>) Tj
+T*
+(    ) Tj
+T*
+(    class Logger {) Tj
+T*
+(    public:) Tj
+T*
+(        explicit Logger\\(std::string nume\\) : nume_{std::move\\(nume\\)} {) Tj
+T*
+(            std::cout << "Pornire logger: " << nume_ << '\\\\n';) Tj
+T*
+(        }) Tj
+T*
+(        ~Logger\\(\\) {) Tj
+T*
+(            std::cout << "Oprire logger: " << nume_ << '\\\\n';) Tj
+T*
+(        }) Tj
+T*
+(        void log\\(const std::string& mesaj\\) {) Tj
+T*
+(            std::cout << '[' << nume_ << "] " << mesaj << '\\\\n';) Tj
+T*
+(        }) Tj
+T*
+(    private:) Tj
+T*
+(        std::string nume_;) Tj
+T*
+(    };) Tj
+T*
+(    ) Tj
+T*
+(    int main\\(\\) {) Tj
+ET
+endstream
+endobj
+24 0 obj
+<< /Length 2040 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 72 770 Tm
+14 TL
+(        auto logger = std::make_unique<Logger>\\("Aplicatie"\\);) Tj
+T*
+(        logger->log\\("Pornit modulul de autentificare"\\);) Tj
+T*
+(    }) Tj
+T*
+( ) Tj
+T*
+(Exerciții) Tj
+T*
+( ) Tj
+T*
+(1. Convertește un cod existent care folosește `new`/`delete` într-o variantă bazată pe) Tj
+T*
+(smart pointeri.) Tj
+T*
+(2. Implementează un allocator personalizat care loghează toate alocările și dealocările.) Tj
+T*
+(3. Scrie un eseu scurt despre avantajele RAII față de garbage collection.) Tj
+T*
+( ) Tj
+T*
+(---) Tj
+T*
+( ) Tj
+T*
+(Modulul 8. Programare generică) Tj
+T*
+( ) Tj
+T*
+(Obiective) Tj
+T*
+( ) Tj
+T*
+(  • Înțelegerea șabloanelor de funcții și clase.) Tj
+T*
+(  • Specializarea parțială și totală.) Tj
+T*
+(  • Introducere în concepte \\(C++20\\) pentru constrângeri clare ale șabloanelor.) Tj
+T*
+( ) Tj
+T*
+(Teorie) Tj
+T*
+( ) Tj
+T*
+(Șabloanele permit scrierea de cod generic reutilizabil. Parametrii de șablon pot fi) Tj
+T*
+(tipuri, valori sau șabloane. `template<typename T>` și `template<class T>` sunt) Tj
+T*
+(echivalente. Conceptele introduc predicate semantice care verifică proprietățile) Tj
+T*
+(parametrilor.) Tj
+T*
+( ) Tj
+T*
+(Exemplu: șablon cu concept) Tj
+T*
+( ) Tj
+T*
+(    #include <concepts>) Tj
+T*
+(    #include <iostream>) Tj
+T*
+(    #include <numeric>) Tj
+T*
+(    #include <vector>) Tj
+T*
+(    ) Tj
+T*
+(    template <std::floating_point T>) Tj
+T*
+(    T calculeaza_medie\\(const std::vector<T>& valori\\) {) Tj
+T*
+(        if \\(valori.empty\\(\\)\\) {) Tj
+T*
+(            throw std::invalid_argument{"Nu se poate calcula media unui vector gol"};) Tj
+T*
+(        }) Tj
+T*
+(        T suma = std::accumulate\\(valori.begin\\(\\), valori.end\\(\\), T{0}\\);) Tj
+T*
+(        return suma / static_cast<T>\\(valori.size\\(\\)\\);) Tj
+T*
+(    }) Tj
+T*
+(    ) Tj
+T*
+(    int main\\(\\) {) Tj
+T*
+(        std::vector<double> temperaturi{21.5, 23.0, 19.8};) Tj
+T*
+(        std::cout << calculeaza_medie\\(temperaturi\\) << '\\\\n';) Tj
+T*
+(    }) Tj
+T*
+( ) Tj
+ET
+endstream
+endobj
+25 0 obj
+<< /Length 2069 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 72 770 Tm
+14 TL
+(Exerciții) Tj
+T*
+( ) Tj
+T*
+(1. Creează o clasă șablon `Matrice<T>` cu operații de bază și operatori suprascrise.) Tj
+T*
+(2. Scrie o funcție șablon `swap_sigur` care funcționează cu orice tip mutabil și) Tj
+T*
+(demonstrează folosind concepte.) Tj
+T*
+(3. Implementează un sistem de evenimente folosind șabloane și `std::function`.) Tj
+T*
+( ) Tj
+T*
+(---) Tj
+T*
+( ) Tj
+T*
+(Modulul 9. Gestionarea erorilor și debugging) Tj
+T*
+( ) Tj
+T*
+(Obiective) Tj
+T*
+( ) Tj
+T*
+(  • Folosirea mecanismului de excepții \\(`try`, `catch`, `throw`\\).) Tj
+T*
+(  • Tehnici de diagnosticare: `assert`, logare, debuggere.) Tj
+T*
+(  • Scrierea testelor unitare de bază \\(framework `Catch2` sau `GoogleTest`\\).) Tj
+T*
+( ) Tj
+T*
+(Teorie) Tj
+T*
+( ) Tj
+T*
+(Excepțiile trebuie folosite pentru condiții excepționale, nu pentru controlul normal al) Tj
+T*
+(fluxului. Hierarhiile de excepții ar trebui să fie specifice contextului aplicației.) Tj
+T*
+(Debugging-ul eficient implică reproducerea erorii, izolarea cauzei și verificarea) Tj
+T*
+(soluției.) Tj
+T*
+( ) Tj
+T*
+(Exemplu: gestiune simplă a excepțiilor) Tj
+T*
+( ) Tj
+T*
+(    #include <exception>) Tj
+T*
+(    #include <iostream>) Tj
+T*
+(    ) Tj
+T*
+(    int divide\\(int a, int b\\) {) Tj
+T*
+(        if \\(b == 0\\) {) Tj
+T*
+(            throw std::runtime_error{"Împărțire la zero"};) Tj
+T*
+(        }) Tj
+T*
+(        return a / b;) Tj
+T*
+(    }) Tj
+T*
+(    ) Tj
+T*
+(    int main\\(\\) {) Tj
+T*
+(        try {) Tj
+T*
+(            std::cout << divide\\(10, 0\\) << '\\\\n';) Tj
+T*
+(        } catch \\(const std::exception& ex\\) {) Tj
+T*
+(            std::cerr << "Eroare: " << ex.what\\(\\) << '\\\\n';) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+( ) Tj
+T*
+(Exerciții) Tj
+T*
+( ) Tj
+T*
+(1. Adaugă tratament de erori la funcțiile implementate în modulele anterioare.) Tj
+T*
+(2. Configurează un proiect mic cu `Catch2` și scrie teste pentru o funcție `fibonacci`.) Tj
+T*
+(3. Folosește un debugger \\(gdb, lldb sau Visual Studio\\) pentru a urmări execuția unui) Tj
+ET
+endstream
+endobj
+26 0 obj
+<< /Length 1918 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 72 770 Tm
+14 TL
+(algoritm de sortare.) Tj
+T*
+( ) Tj
+T*
+(---) Tj
+T*
+( ) Tj
+T*
+(Modulul 10. Funcționalități moderne \\(C++11 - C++20\\)) Tj
+T*
+( ) Tj
+T*
+(Obiective) Tj
+T*
+( ) Tj
+T*
+(  • Inițializatori cu acolade, `auto`, `decltype`, `nullptr`.) Tj
+T*
+(  • Lambda expressions și `std::function`.) Tj
+T*
+(  • `std::thread`, `std::async`, `std::future` pentru programare concurentă.) Tj
+T*
+(  • `ranges`, `structured bindings`, `std::optional`, `std::variant`.) Tj
+T*
+( ) Tj
+T*
+(Teorie) Tj
+T*
+( ) Tj
+T*
+(Standardele moderne au modernizat limbajul. C++11 a introdus mutarea semantica) Tj
+T*
+(\\(`std::move`\\), punând bazele pentru performanță fără alocări suplimentare. C++17 a adus) Tj
+T*
+(`if constexpr` și `std::optional`, iar C++20 a continuat cu `ranges`, concepte și) Tj
+T*
+(corutine. Adoptarea acestor caracteristici crește expresivitatea codului și reduce) Tj
+T*
+(boilerplate-ul.) Tj
+T*
+( ) Tj
+T*
+(Exemplu: utilizarea `std::optional` și a lambda-urilor) Tj
+T*
+( ) Tj
+T*
+(    #include <iostream>) Tj
+T*
+(    #include <optional>) Tj
+T*
+(    #include <string>) Tj
+T*
+(    ) Tj
+T*
+(    std::optional<std::string> cauta_utilizator\\(int id\\) {) Tj
+T*
+(        if \\(id == 42\\) {) Tj
+T*
+(            return std::string{"Ada"};) Tj
+T*
+(        }) Tj
+T*
+(        return std::nullopt;) Tj
+T*
+(    }) Tj
+T*
+(    ) Tj
+T*
+(    int main\\(\\) {) Tj
+T*
+(        auto afiseaza = []\\(const std::optional<std::string>& utilizator\\) {) Tj
+T*
+(            if \\(utilizator\\) {) Tj
+T*
+(                std::cout << "Utilizator găsit: " << *utilizator << '\\\\n';) Tj
+T*
+(            } else {) Tj
+T*
+(                std::cout << "Utilizator inexistent\\\\n";) Tj
+T*
+(            }) Tj
+T*
+(        };) Tj
+T*
+(    ) Tj
+T*
+(        afiseaza\\(cauta_utilizator\\(42\\)\\);) Tj
+T*
+(        afiseaza\\(cauta_utilizator\\(7\\)\\);) Tj
+T*
+(    }) Tj
+T*
+( ) Tj
+T*
+(Exerciții) Tj
+T*
+( ) Tj
+ET
+endstream
+endobj
+27 0 obj
+<< /Length 2544 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 72 770 Tm
+14 TL
+(1. Rescrie proiectul din modulul 5 folosind `std::unique_ptr`, `std::optional` și lambda-) Tj
+T*
+(uri.) Tj
+T*
+(2. Creează un program care lansează mai multe fire de execuție pentru a calcula suma) Tj
+T*
+(pătratelor dintr-un vector mare.) Tj
+T*
+(3. Utilizează `std::ranges` pentru a filtra și transforma o listă de structuri) Tj
+T*
+(personalizate.) Tj
+T*
+( ) Tj
+T*
+(---) Tj
+T*
+( ) Tj
+T*
+(Modulul 11. Proiect integrator) Tj
+T*
+( ) Tj
+T*
+(Tema: „Gestionarea unui centru educațional”) Tj
+T*
+( ) Tj
+T*
+(Cerințe) Tj
+T*
+( ) Tj
+T*
+(  • Dezvoltă o aplicație de linie de comandă care permite gestionarea cursanților, cursurilor și profesorilor.) Tj
+T*
+(  • Datele se stochează în fișiere JSON sau CSV.) Tj
+T*
+(  • Aplicația trebuie să permită: adăugare, actualizare, căutare, listare și raportare.) Tj
+T*
+(  • Folosește OOP, STL, șabloane pentru colecții flexibile și mecanisme moderne \\(`std::optional`, `std::filesystem`\\).) Tj
+T*
+( ) Tj
+T*
+(Etape recomandate) Tj
+T*
+( ) Tj
+T*
+(1. Modelează entitățile principale \\(`Student`, `Curs`, `Profesor`\\) cu clase și relații) Tj
+T*
+(adecvate.) Tj
+T*
+(2. Creează un modul de persistență care citește/scrie datele. Poți folosi biblioteci) Tj
+T*
+(externe precum `nlohmann::json` sau poți implementa un format simplificat.) Tj
+T*
+(3. Proiectează un meniu interactiv și fluxuri de lucru clare.) Tj
+T*
+(4. Scrie teste unitare pentru componentele critice \\(import/export, căutări\\).) Tj
+T*
+(5. Documentează aplicația și pregătește un ghid de utilizare.) Tj
+T*
+( ) Tj
+T*
+(Provocări suplimentare) Tj
+T*
+( ) Tj
+T*
+(  • Extinde aplicația cu funcționalitate de planificare a orarului.) Tj
+T*
+(  • Adaugă suport pentru export de rapoarte în format PDF sau HTML.) Tj
+T*
+(  • Integrează autentificare și roluri \\(administrator, profesor, cursant\\).) Tj
+T*
+( ) Tj
+T*
+(---) Tj
+T*
+( ) Tj
+T*
+(Modulul 12. Resurse, bune practici și concluzii) Tj
+T*
+( ) Tj
+T*
+(Bune practici) Tj
+T*
+( ) Tj
+T*
+(  • Respectă ghidurile de stil \\(Google C++ Style Guide sau LLVM Coding Standards\\).) Tj
+T*
+(  • Automatizează build-ul cu CMake și configurează un sistem de integrare continuă.) Tj
+T*
+(  • Scrie documentație cu Doxygen și menține un jurnal al deciziilor tehnice.) Tj
+T*
+( ) Tj
+T*
+(Resurse recomandate) Tj
+T*
+( ) Tj
+T*
+(  • **Cărți:** *A Tour of C++* \\(Bjarne Stroustrup\\), *Effective Modern C++* \\(Scott Meyers\\), *C++ Templates: The Complete Guide* \\(Vandevoorde, Josuttis, Gregor\\).) Tj
+ET
+endstream
+endobj
+28 0 obj
+<< /Length 2334 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 72 770 Tm
+14 TL
+(  • **Cursuri online:** Coursera „C++ For C Programmers”, Udemy „Beginning C++ Programming”, Pluralsight „Advanced C++”.) Tj
+T*
+(  • **Situri & comunități:** cppreference.com, Stack Overflow \\(eticheta [c++]\\), ISO C++ Foundation, canalul YouTube „CppCon”.) Tj
+T*
+( ) Tj
+T*
+(Strategii de învățare) Tj
+T*
+( ) Tj
+T*
+(1. Practică zilnică: rezolvă câteva exerciții în fiecare zi pentru a crea reflexe.) Tj
+T*
+(2. Citește cod sursă de calitate: biblioteci open-source precum Boost, fmt, abseil.) Tj
+T*
+(3. Participă la comunități și evenimente \\(meetup-uri locale, conferințe online\\).) Tj
+T*
+( ) Tj
+T*
+(Test final sugerat) Tj
+T*
+( ) Tj
+T*
+(1. Explică diferența dintre copiere și mutare în C++ și oferă exemple practice.) Tj
+T*
+(2. Proiectează un modul de logare thread-safe folosind `std::mutex` și RAII.) Tj
+T*
+(3. Scrie o aplicație mică care utilizează șabloane, STL și programare concurentă pentru a) Tj
+T*
+(analiza un set de date.) Tj
+T*
+( ) Tj
+T*
+(Concluzii) Tj
+T*
+( ) Tj
+T*
+(Parcurgerea acestui curs ar trebui să îți ofere o imagine holistică asupra limbajului C++.) Tj
+T*
+(Cheia este practica constantă și revizuirea periodică a conceptelor. Continuă să urmărești) Tj
+T*
+(evoluția standardului și să experimentezi cu noi biblioteci și paradigme.) Tj
+T*
+( ) Tj
+T*
+(---) Tj
+T*
+( ) Tj
+T*
+(Anexă A. Soluții selectate) Tj
+T*
+( ) Tj
+T*
+(Modulul 2, exercițiul 1: convertor de temperatură) Tj
+T*
+( ) Tj
+T*
+(    #include <iostream>) Tj
+T*
+(    ) Tj
+T*
+(    double celsius_in_fahrenheit\\(double celsius\\) {) Tj
+T*
+(        return celsius * 9.0 / 5.0 + 32.0;) Tj
+T*
+(    }) Tj
+T*
+(    ) Tj
+T*
+(    double fahrenheit_in_celsius\\(double fahrenheit\\) {) Tj
+T*
+(        return \\(fahrenheit - 32.0\\) * 5.0 / 9.0;) Tj
+T*
+(    }) Tj
+T*
+(    ) Tj
+T*
+(    int main\\(\\) {) Tj
+T*
+(        double valoare{};) Tj
+T*
+(        char tip{};) Tj
+T*
+(    ) Tj
+T*
+(        std::cout << "Introduceți valoarea temperaturii: ";) Tj
+T*
+(        std::cin >> valoare;) Tj
+T*
+(        std::cout << "Introduceți unitatea \\(C/F\\): ";) Tj
+T*
+(        std::cin >> tip;) Tj
+T*
+(    ) Tj
+T*
+(        if \\(tip == 'C' || tip == 'c'\\) {) Tj
+T*
+(            std::cout << valoare << " °C = " << celsius_in_fahrenheit\\(valoare\\) << " °F\\\\n";) Tj
+ET
+endstream
+endobj
+29 0 obj
+<< /Length 1864 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 72 770 Tm
+14 TL
+(        } else if \\(tip == 'F' || tip == 'f'\\) {) Tj
+T*
+(            std::cout << valoare << " °F = " << fahrenheit_in_celsius\\(valoare\\) << " °C\\\\n";) Tj
+T*
+(        } else {) Tj
+T*
+(            std::cout << "Unitate necunoscută.\\\\n";) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+( ) Tj
+T*
+(Modulul 5, exercițiul 1: `ContBancar`) Tj
+T*
+( ) Tj
+T*
+(    #include <iostream>) Tj
+T*
+(    #include <stdexcept>) Tj
+T*
+(    #include <string>) Tj
+T*
+(    ) Tj
+T*
+(    class ContBancar {) Tj
+T*
+(    public:) Tj
+T*
+(        ContBancar\\(std::string titular, double sold_initial\\)) Tj
+T*
+(            : titular_{std::move\\(titular\\)}, sold_{sold_initial} {}) Tj
+T*
+(    ) Tj
+T*
+(        void depune\\(double suma\\) {) Tj
+T*
+(            if \\(suma <= 0\\) {) Tj
+T*
+(                throw std::invalid_argument{"Suma trebuie să fie pozitivă"};) Tj
+T*
+(            }) Tj
+T*
+(            sold_ += suma;) Tj
+T*
+(        }) Tj
+T*
+(    ) Tj
+T*
+(        void retrage\\(double suma\\) {) Tj
+T*
+(            if \\(suma <= 0\\) {) Tj
+T*
+(                throw std::invalid_argument{"Suma trebuie să fie pozitivă"};) Tj
+T*
+(            }) Tj
+T*
+(            if \\(suma > sold_\\) {) Tj
+T*
+(                throw std::runtime_error{"Fonduri insuficiente"};) Tj
+T*
+(            }) Tj
+T*
+(            sold_ -= suma;) Tj
+T*
+(        }) Tj
+T*
+(    ) Tj
+T*
+(        double sold\\(\\) const noexcept { return sold_; }) Tj
+T*
+(    ) Tj
+T*
+(        void afiseaza\\(\\) const {) Tj
+T*
+(            std::cout << "Titular: " << titular_ << ", sold: " << sold_ << '\\\\n';) Tj
+T*
+(        }) Tj
+T*
+(    ) Tj
+T*
+(    private:) Tj
+T*
+(        std::string titular_;) Tj
+T*
+(        double sold_;) Tj
+T*
+(    };) Tj
+T*
+(    ) Tj
+T*
+(    int main\\(\\) {) Tj
+T*
+(        ContBancar cont{"Ioana", 1000.0};) Tj
+T*
+(        cont.depune\\(250.0\\);) Tj
+ET
+endstream
+endobj
+30 0 obj
+<< /Length 1536 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 72 770 Tm
+14 TL
+(        cont.retrage\\(400.0\\);) Tj
+T*
+(        cont.afiseaza\\(\\);) Tj
+T*
+(    }) Tj
+T*
+( ) Tj
+T*
+(Modulul 8, exercițiul 2: `swap_sigur`) Tj
+T*
+( ) Tj
+T*
+(    #include <concepts>) Tj
+T*
+(    #include <iostream>) Tj
+T*
+(    #include <utility>) Tj
+T*
+(    ) Tj
+T*
+(    template <typename T>) Tj
+T*
+(    concept Mutabil = std::is_move_constructible_v<T> && std::is_move_assignable_v<T>;) Tj
+T*
+(    ) Tj
+T*
+(    template <Mutabil T>) Tj
+T*
+(    void swap_sigur\\(T& a, T& b\\) noexcept\\(std::is_nothrow_move_constructible_v<T> &&) Tj
+T*
+(                                         std::is_nothrow_move_assignable_v<T>\\) {) Tj
+T*
+(        T tmp = std::move\\(a\\);) Tj
+T*
+(        a = std::move\\(b\\);) Tj
+T*
+(        b = std::move\\(tmp\\);) Tj
+T*
+(    }) Tj
+T*
+(    ) Tj
+T*
+(    int main\\(\\) {) Tj
+T*
+(        int x = 5, y = 9;) Tj
+T*
+(        swap_sigur\\(x, y\\);) Tj
+T*
+(        std::cout << x << ' ' << y << '\\\\n';) Tj
+T*
+(    }) Tj
+T*
+( ) Tj
+T*
+(---) Tj
+T*
+( ) Tj
+T*
+(Anexă B. Checklist de autoevaluare) Tj
+T*
+( ) Tj
+T*
+(  • [ ] Pot explica diferența dintre o referință și un pointer.) Tj
+T*
+(  • [ ] Știu să folosesc `std::vector`, `std::map` și algoritmi STL de bază.) Tj
+T*
+(  • [ ] Pot scrie și testa o clasă cu constructor, destructor și operatori.) Tj
+T*
+(  • [ ] Am creat cel puțin un proiect complet folosind conceptele din curs.) Tj
+T*
+(  • [ ] Urmăresc periodic noutățile standardului C++ și actualizez stilul de cod corespunzător.) Tj
+T*
+( ) Tj
+ET
+endstream
+endobj
+31 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 32
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000201 00000 n 
+0000000329 00000 n 
+0000000457 00000 n 
+0000000585 00000 n 
+0000000713 00000 n 
+0000000841 00000 n 
+0000000969 00000 n 
+0000001097 00000 n 
+0000001226 00000 n 
+0000001355 00000 n 
+0000001484 00000 n 
+0000001613 00000 n 
+0000001742 00000 n 
+0000001871 00000 n 
+0000002000 00000 n 
+0000004550 00000 n 
+0000006610 00000 n 
+0000008634 00000 n 
+0000010559 00000 n 
+0000012716 00000 n 
+0000014887 00000 n 
+0000016898 00000 n 
+0000018991 00000 n 
+0000021113 00000 n 
+0000023084 00000 n 
+0000025681 00000 n 
+0000028068 00000 n 
+0000029985 00000 n 
+0000031574 00000 n 
+trailer
+<< /Size 32 /Root 1 0 R >>
+startxref
+31645
+%%EOF

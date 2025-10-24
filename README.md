@@ -1,10 +1,11 @@
-- 👋 Hi, I’m @Adimaris21
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# Adimaris21
 
-<!---
-Adimaris21/Adimaris21 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Acest repository găzduiește materiale educaționale și scripturi auxiliare create în cadrul proiectelor personale.
+
+## Curs complet de C++
+- Documentația completă este disponibilă în format Markdown: [`docs/curs_cpp.md`](docs/curs_cpp.md).
+- Versiunea PDF poate fi regenerată rulând scriptul `python tools/generate_pdf.py`.
+
+## Contact
+- 👋 Hi, I’m @Adimaris21
+- 📫 How to reach me ...
